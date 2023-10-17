@@ -8,82 +8,69 @@
     <meta name="keywords" content="FIBRA">
     
     <title>FIBRA</title>
-
+</head>
 <style>
-    section {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        min-height: 430px;
-        padding: 100px 20vw;
 
-    }
-     body {
-        margin: 0;
-        background-color:pink;
-        color:black;
-        text-align: center;
-        font-family:  "Prompt",sans-serif;
-        overflow-x:hidden;
-    }
-    .white {
-        background:white;
+
+section {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+body {
     
-    }
-    .pink{
-        background:pink;
-    }
-    .curve {
-        position:absolute;
-        height: 225px;
-        width: 100%;
-        bottom: 0;
-    }
-    .curve::before{
-        content: "";
-        display: block;
-        position: absolute;
-        border-radius: 100% 50%;
-        width: 55%;
-        height: 100%;
-        background: pink;
-        transform:translate(85%,60%);
-    }
-    .curve::after{
-        content: "";
-        display: block;
-        position: absolute;
-        border-radius: 100% 50%;
-        width: 55%;
-        height: 100%;
-        background:white;
-        transform:translate(-4%,40%);
-        z-index: -1;
-    }
-    .logo{
-        background:url("FIBRA.jpg");
-        text-indent: -999999%;
-        width:1000px;
-        height:900px;
-    }
+    margin: 0;
+    background-color:pink;
+    color:black;
+    overflow-x:hidden;
+}
+.white {
+    background:white;
+
+}
+.curve {
+    position:absolute;
+    height: 225px;
+    width: 100%;
+    bottom: 0;
+}
+.curve::before{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background: pink;
+    transform:translate(85%,60%);
+}
+.curve::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background:white;
+    transform:translate(-4%,40%);
+    z-index: -1;
+}
+
+
 </style>
-
 <body>
-    <section class="white">
-        <h1>FIBRA</h1>
-        <img src="FIBRA.jpg" width="300" height="300">        <div class="curve"></div>
-    </section>
-
+    <section class="white" >
+        <img src="fibra.jpg" width="85%" height="85%"><div class="curve"></div>
+</section>
     <section>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-        <h2>Pomôžte v rozvoji novovzniknutej firme na vašej škole vyplnením krátkeho dotazníka: 
-        </h2>
-        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeDr_7O_y0oN96mKsPkXaM8tQtNOFf5SmSeY9CZZzLLM0y6lg/viewform?usp=sf_link">link text</a></p>
+        <h1>Pomôžte v rozvoji novovzniknutej firme na vašej škole vyplnením krátkeho dotazníka: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDr_7O_y0oN96mKsPkXaM8tQtNOFf5SmSeY9CZZzLLM0y6lg/viewform?usp=sf_link">klikni tu!</a></h1>
         
-    </section>
+</section>
     
 </body>
