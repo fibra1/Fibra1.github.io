@@ -3,57 +3,46 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="FIBRA">
-    <meta name="keywords" content="FIBRA">
-    <meta name = "viewport" content = "width = device-width">
     <meta name = "viewport" content = "width = 320">
-    
+
     <title>FIBRA</title>
 </head>
 <style>
-
-section {
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-    max-height: 300;
-    text-align: right;
-    padding:100px 20vw;
-}
-
-body {
-    align-items: center;
-    position: relative;
-    display: flex;
-    width: 320px;
-    margin: 0;
+ body{
     background-color:rgb(255, 255, 255);
     color:black;
-    overflow-x:hidden;   
-}
-.centered-box{
-    font: 8pt Helvetica, sans-serif;
-    text-align: left;
-    padding-left: 55px;
-    border: 10px solid #ffffff;
-    max-width: 320px;
-}
-</style>
-<body>
-    <section >
-    <div class="pic">
-        <img src="fibra.jpg" alt="logo" style="width:320px ;height: 300px;">
+ }
+ .item{
+    position: relative;
+    font: 10pt Helvetica, sans-serif;
+ }
+ .item-1{
     
-        <div class="centered-box">
-            <h1>Dovoľujeme si Vám predstaviť novovzniknutú študentskú firmu, ktorá bude v tomto školskom roku pôsobiť     na našej škole.
-                Využite jedinečnú možnosť stať     sa akcionárom. 
-                Predaj akcií FIBRA š.f.     sa uskutoční na prvom poschodí pod telkou. 
+ }
+ .item-2{
+    text-align: left;
+    width:310px;
+    height:fit-content;
+ }
+ .container{
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+ }
+</style>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="item item-1"><img src="fibra.jpg" alt="logo" style="width:320px ;height: 300px;"></div>
+
+            <div class="item item-2">
+                <h1>Dovoľujeme si Vám predstaviť novovzniknutú študentskú firmu, ktorá bude v tomto školskom roku pôsobiť na našej škole.
+                Využite jedinečnú možnosť stať sa akcionárom. Predaj akcií FIBRA š.f. sa uskutoční na prvom poschodí pod telkou. 
                 Predstavenie produktu sa uskutoční od 14 novembra 2023 na chodbe na 1. poschodí.</h1>
                 <h2>Tešíme sa na spoluprácu!</h2>
+            </div>
         </div>
-    
     </section>
 </body>
